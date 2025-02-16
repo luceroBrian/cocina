@@ -1,0 +1,2329 @@
+ *{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+} 
+
+@media only screen and (max-width:375px ) and (min-width:200px) {
+    body {
+        background:radial-gradient(pink , violet, white  ); 
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .fondoImg .aWsp {
+        margin-left: 230px;
+        margin-bottom: 70px;
+        margin-right: 10px;
+       
+        
+    }
+
+    .wsp {
+        object-fit: cover;
+        box-sizing: border-box;
+        width: 80px;
+        height: 80px;
+        background-color: transparent;   
+    }
+  
+
+    header{        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+         
+    }
+
+    header .portatil {
+        display: none;
+    }
+
+    .pVenta {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+
+    .pVenta p {
+        text-align: center;
+        height: auto;
+        margin: auto;
+        /*animation: fisico 15s infinite ;*/
+    }
+
+    .div_img{ 
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80px;
+        background: black;
+        width: 100vw;
+        text-decoration: none;
+        
+    }
+
+    .div_img a {
+        width: 100%;
+        text-decoration: none;
+        margin: 0;
+        background-color: black;
+
+    }
+
+    .div_img a img {
+        height: 80px;
+        width: 100%;
+        
+    }
+
+
+    header .boton_hbs {
+        border:1px solid black;
+
+
+    }
+
+    .boton_hbs button {
+        color:white; 
+    }
+
+    .boton_hbs button span {
+        color: white;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+
+    header div    .header_img  {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid red;
+        border-radius: 20px;
+   
+    }
+    
+    .header_img  {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid red;
+        border-radius: 20px;
+   
+    }
+
+    .header_img img {
+        width: 100%;
+        height: 100%;
+        padding: 2px;
+        border: 2px solid red;
+        border-radius: 20px;
+    }
+
+    header .header_img img {
+        border: 2px solid red;
+        border-radius: 20px;
+    }
+
+    .encabezado{
+        width: 100%;
+        height: auto; 
+        font-size: 30px ;
+        text-align: center;
+        padding: 5px;  
+    }
+
+    .encabezado a {
+        text-decoration: none; 
+        z-index: 10;
+    }
+
+    .agendaS {
+        margin: 0px;    
+        width: 100%;
+        padding: 1px;  
+        z-index: 10; 
+    }
+
+    .agendaS a {
+        color: black;
+        text-decoration: none;
+        margin: 0px;
+        z-index: 10;
+    }
+
+    .agenda {        
+        margin: 0px; 
+
+    }
+
+    .agenda a {
+        margin: 0px;
+        text-decoration: none; 
+        border: none; 
+    }
+
+
+
+    .setJardin {
+        border: none; 
+        margin: 0px; 
+    }
+
+    .setJardin a {
+        color: black;
+        margin: 0px;
+        text-decoration: none; 
+        border: none;
+    }
+
+    .almohadones {
+        margin: 0px;
+        color: black;
+        border: none;
+    }
+
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
+        border: none; 
+        margin: 0PX;
+    }
+
+    .cartuchera a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;
+    }
+
+    .remChicos {
+        border: none; 
+        margin: 0px;
+    }
+
+    .remChicos a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;
+    }
+
+    
+    .remEmbarazadas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .remEmbarazadas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .mochilas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .mochilas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+    
+    .container_card {
+        width: 100%;
+        height: auto; 
+        padding: 2px;
+        margin-bottom: 50px;
+        margin-top: 20px; 
+        border-radius: 8px; 
+        z-index: 10;     
+    }
+
+    .section {
+        width: auto;
+        height:260px;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;      
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        margin: 0;           
+    }
+
+    .section::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .section .card {
+        height: auto;
+        width: auto;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 10px;  
+    }
+
+    .section .card a {
+        width: 180px;
+        height: 180px;
+        text-decoration: none;
+     }
+
+    .card a img {
+        width:100%;
+        height: 100%; 
+    }
+
+    .section .card  .parrafo{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        height: auto;
+    }
+
+    .container_card .verMas {
+        text-align: center;
+        margin: 0px;
+        text-align: center;        
+      }
+
+    .container_card .verMas  a {
+        text-decoration: none;
+        color: black;
+        margin: 0px;
+    }
+
+    .redes_soc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 50%;
+    }
+ 
+    footer div p {
+        font-size: 15px;
+    }
+
+    footer .infoLinks {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap;      
+        justify-content:space-around;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .infoLinks a {
+        color: white;
+        text-decoration: none;
+        font-size: 8px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
+    }
+
+    .copyright {
+        background-color: black;
+        color: white;
+        height: auto;
+        text-align: center;
+        font-size: 15px; 
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* --- ir arriba --- */
+
+    .ir-arriba {
+        position: fixed;
+        bottom: 25px;
+        left: 3px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        transition: all 300ms ease;
+        border-radius: 50%;
+        z-index: 30;
+    }
+
+    .ir-arriba span {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin: auto;
+    }
+
+ 
+
+
+    /* ---- javascript ---- */
+
+    .list {
+        height: 100%;
+        width: 85%; 
+        display: none; 
+       
+    }
+
+
+    .boton {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .list button {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navMenu {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+
+    }
+
+    .navMenu a{
+        text-decoration: none;
+        font-size: 15px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    
+    }
+
+    .navMenu .producto {
+        color: white;
+    }
+
+    .navProd {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: none;
+        margin: 0px;
+        margin-bottom: 8px;
+        padding: 5px;
+
+
+    }
+
+    .navProd a{
+        text-decoration: none;
+        font-size: 12px;
+        background-color: black;
+        color: white;
+        display: block;
+        margin-left: 10px;
+      
+    
+    }
+
+    /*
+
+    @keyframes fisico {
+        0% { color: black;  }
+        25% { color:yellow; }
+        50% { color:violet;  }
+        75% { color: green;  }
+        100% { color:white; }
+        
+    }
+
+    */
+        
+    
+
+}
+
+@media only screen and (max-width:425px ) and (min-width:376px) {
+
+    body {
+        background:radial-gradient(pink , violet, white  );
+    }
+
+    .fondoImg .aWsp {
+        margin-left: 310px;
+        margin-bottom: 80px;
+        margin-right: 15px;
+    }
+
+    .wsp {
+        object-fit: cover;
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+    }
+
+    header{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+
+    header .portatil{
+        display: none;
+    }
+
+    .pVenta {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+
+    .pVenta p {
+        text-align: center;
+        height: auto;
+        margin: auto;
+        
+    }
+
+    .div_img{ 
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80px;
+        background: black;
+        width: 100vw;
+        text-decoration: none;
+    }
+
+    .div_img a {
+        width: 100%;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    .div_img a img {
+        height: 80px;
+        width: 100%;
+    }
+
+    .boton_hbs {
+        border:1px solid black;
+    }
+
+    .boton_hbs button {
+        color:black;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .header_img  {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .header_img img {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+
+    }
+
+    .encabezado{
+        width: 100%;
+        font-size: 38px ;
+        text-align: center;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .encabezado a {
+        text-decoration: none; 
+    }
+
+    .agendaS {
+        margin: 0px;    
+        width: 100%;
+        height: 380px;
+        padding: 1px;  
+    }
+
+    .agenda {        
+        margin: 0px;
+    }
+
+    .agenda a {
+        color: black;
+        margin: 0px;
+        text-decoration: none; 
+        border: none;
+    }
+
+    .agendaS  .card  {
+        width: 85%;
+        height: auto;
+        margin: auto;
+    }
+
+    .agendaS  .card a {
+        width: 100%;
+        height: 300px;
+        color: black;
+        text-decoration: none;
+        margin: auto;
+    }
+
+    .agendaS  .card a img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+
+
+    .setJardin {
+        border: none; 
+        margin: 0px; 
+    }
+
+    .setJardin a {
+        color: black;
+        margin: 0px;
+        text-decoration: none; 
+        border: none;
+    }
+
+    .almohadones {
+        margin: 0px;
+        color: black;
+        border: none;
+    }
+
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
+        border: none; 
+        margin: 0PX;
+    }
+
+    .cartuchera a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;        
+    }
+
+    .remChicos {
+        border: none; 
+        margin: 0px;
+    }
+
+    .remChicos a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;
+    }
+
+    
+    .remEmbarazadas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .remEmbarazadas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .mochilas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .mochilas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .container_card{
+        width: 100%;
+        height: auto; 
+        padding: 4px;
+        margin-bottom: 50px;
+        margin-top: 20px; 
+        border-radius: 8px;
+        z-index: 10;
+    }
+
+    .section {
+        width: auto;
+        height: 300px;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;      
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        margin: 0;   
+    }
+
+    .section::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .card{
+        height: auto;
+        width: auto;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 10px; 
+    }
+
+    .card a {
+        width: 220px;
+        height: 230px; 
+        text-decoration: none; 
+    }
+
+    .card a img {
+        width: 100%;  
+        height: 100%; 
+    }
+
+    .section .card  .parrafo {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        height: auto;
+        font-size: 18px;
+    }
+
+    .container_card .verMas {
+        text-align: center;
+        margin: 0px;
+        text-align: center;        
+      }
+
+    .container_card .verMas  a {
+        text-decoration: none;
+        color: black;
+        margin: 0px;
+        font-size: 18px;
+    }
+
+   .redes_soc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width: 70px;
+        height: 70px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 50%;
+    }
+
+    .redes {
+        float: left;
+    }
+
+
+    .contacto svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contacto p {
+        font-size: 20px
+    }
+
+    footer div p {
+        font-size: 15px;
+    }
+
+    footer .infoLinks {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 8px;
+
+    }
+
+    .infoLinks a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px; 
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap;        
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
+    }
+
+    .copyright {
+        background-color: black;
+        color: white;
+        height: auto;
+        text-align: center;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    /* --- ir arriba --- */
+
+    .ir-arriba {
+        position: fixed;
+        bottom: 25px;
+        left: 3px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        transition: all 300ms ease;
+        border-radius: 50%;
+        z-index: 30;
+    }
+
+    .ir-arriba span {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin: auto;
+    }
+
+
+    /* ---- javascript ---- */
+
+    .list {
+        height: 100%;
+        width: 85%; 
+        display: none; 
+       
+    }
+
+
+    .boton {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .list button {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navMenu {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+
+    }
+
+    .navMenu a{
+        text-decoration: none;
+        color:black;
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    
+    }
+
+    .navMenu .producto {
+        color: white;
+    }
+
+    .navProd {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: none;
+        margin: 0px;
+        margin-bottom: 8px;
+        padding: 8px;
+
+
+    }
+
+    .navProd a{
+        text-decoration: none;
+        font-size: 20x;
+        background-color: black;
+        color: white;
+        display: block;
+        margin-left: 10px;
+      
+    
+    }
+ 
+
+}
+
+@media only screen and (max-width:920px ) and (min-width:426px) {
+
+    body {
+        background:white;
+    }
+
+    .fondoImg .aWsp {
+        margin-left: 610px;
+        margin-right: 45px;
+        margin-bottom: 110px; 
+    }
+
+    .wsp {
+        object-fit: cover;
+        box-sizing: border-box;
+        width: 110px;
+        height: 110px;
+        background-color: transparent;
+    }
+
+
+    header{        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header .portatil {
+        display: none;
+    }
+
+        .pVenta {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+
+    .pVenta p {
+        text-align: center;
+        height: auto;
+        margin: auto;
+        
+    }
+
+    .fondoImg {
+        margin-left: 45px;
+        margin-right: 45px;
+        background:radial-gradient(pink , violet, white  );
+    }
+
+    .div_img{ 
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 130px;
+        background: black;
+        width: 100vw;
+        text-decoration: none;
+    }
+
+    .div_img a {
+        width: 100%;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    .div_img a img {
+        height: 130px;
+        width: 100%;
+    }
+
+    .boton_hbs {
+        border:1px solid black;
+    }
+
+    .boton_hbs button {
+        color:black;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .header_img  {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .header_img img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+
+    }
+
+    .encabezado{
+        width: 100%;
+        font-size: 38px ;
+        text-align: center;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .encabezado a {
+        text-decoration: none; 
+    }
+
+    .agendaS {
+        margin: auto;    
+        width: 100%;
+        height: 420px; 
+
+    }
+
+    .agenda {        
+        margin: 0px;
+    }
+
+    .agenda a {
+        color: black;
+        margin: auto;
+        text-decoration: none; 
+        border: none;
+    }
+
+    .agendaS  .card  {
+        width: 320px;
+        height: 360px; 
+        margin: auto;
+    }
+
+    .agendaS  .card a {
+        width: 300px;
+        height: 320px;
+        color: black;
+        text-decoration: none;
+        margin: auto; 
+    }
+
+    .agendaS  .card a img {
+        width: 100%;
+        height: 320px;
+        margin: auto; 
+    }
+
+    .setJardin {
+        border: none; 
+        margin: 0px; 
+    }
+
+    .setJardin a {
+        color: black;
+        margin: 0px;
+        text-decoration: none; 
+        border: none;
+    }
+
+    .almohadones {
+        margin: 0px;
+        color: black;
+        border: none;
+    }
+
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
+        border: none; 
+        margin: 0PX;
+    }
+
+    .cartuchera a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;        
+    }
+
+    .remChicos {
+        border: none; 
+        margin: 0px;
+    }
+
+    .remChicos a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;
+    }
+
+    
+    .remEmbarazadas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .remEmbarazadas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .mochilas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .mochilas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .container_card{
+        width: 100%;
+        height: auto; 
+        padding: 0px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        border-radius: 8px;
+        z-index: 10;     
+    }
+
+    .section {
+        height: 350px;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;      
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        margin: 0;    
+    }
+
+    .section::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .section .card{
+        height: auto;
+        width: auto;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 10px;
+    }
+
+    .section .card a {
+        width: 230px;
+        height: 260px; 
+        text-decoration: none;
+    }
+
+    .card a img {
+        width: 100%;  
+        height: 100%; 
+    }
+
+    .section .card  .parrafo {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    .container_card .verMas {
+        text-align: center;
+        margin: 0px;
+        text-align: center;        
+      }
+
+    .container_card .verMas  a {
+        text-decoration: none;
+        color: black;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+   .redes_soc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width: 90px;
+        height: 90px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 50%;
+    }
+
+    .contacto svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contacto p {
+        font-size: 25px
+    }
+
+    footer div p {
+        font-size: 30px;
+    }
+
+    footer .infoLinks {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap;      
+        justify-content:space-around;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .infoLinks a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
+    }
+
+    .copyright {        
+        background-color: black;
+        color: white;height: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* --- ir arriba --- */
+
+    .ir-arriba {
+        position: fixed;
+        bottom: 25px;
+        left: 12px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        transition: all 300ms ease;
+        border-radius: 50%;
+        z-index: 30;
+    }
+
+    .ir-arriba span {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin: auto;
+    }
+
+
+    /* ---- javascript ---- */
+
+    .list {
+        height: 100%;
+        width: 85%; 
+        display: none; 
+       
+    }
+
+
+    .boton {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .list button {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navMenu {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    .navMenu a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    
+    }
+
+    .navMenu .producto {
+        color: white;
+    }
+
+    .navProd {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: none;
+        margin: 0px;
+        margin-bottom: 8px;
+        padding: 8px;
+
+
+    }
+
+    .navProd a{
+        text-decoration: none;
+        font-size: 20x;
+        background-color: black;
+        color: white;
+        display: block;
+        margin-left: 10px;
+      
+    
+    }
+
+ 
+
+}
+
+@media only screen and (max-width:1024px ) and (min-width:921px) {
+
+    body {
+        background:white;
+    }
+
+    .fondoImg {
+        background:radial-gradient(pink , violet, white  );
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .fondoImg .aWsp {
+        margin: 0;
+        margin-left: 850px;
+        margin-right: 55px;
+        margin-bottom: 80px;
+    }
+
+    .wsp {
+        object-fit: cover;
+        box-sizing: border-box;
+        width: 110px;
+        height: 110px;
+        background-color: transparent;      
+    }
+
+    header{ 
+        width: 100%;  
+        height: auto;     
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        align-content: center;
+        margin: auto; 
+    }  
+
+    header .portFon  {
+        width: 100%;
+        height: auto; 
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    header .portFon .port {
+        display: flex;
+        justify-content: end;
+    }
+
+    .portFon .loFondo { 
+        display: flex;
+        margin: auto;       
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .portFon .loFondo img {
+        width:140px;
+        height: auto;
+    }
+
+    .div_img{ 
+        margin: 0;
+        display: none;
+        flex-wrap: wrap;
+        height: 120px;
+        background: black;
+        width: 100%;
+        height: 200px;
+        text-decoration: none;
+    }
+
+    .div_img a {
+        width: 100%;
+        text-decoration: none;
+        margin: 0;
+        background-color: black;
+    }
+
+    .div_img a img {
+        margin: 0;
+        height: 200px;
+        width: 100%;      
+ 
+    }
+
+    .boton_hbs {
+        display: block;
+    }
+
+    .boton_hbs  .menu {
+        display: none;
+    }
+
+    .menu span {
+        display: none;
+    }
+
+
+    .list {
+        display: none;
+    }
+
+    .list button {
+        display: none;
+    }
+
+    .header_img {
+        width: 100%;
+        height: 450px;
+        margin-top: 0px; 
+        padding: 0px; 
+    }
+
+    .header_img img {
+        width: 600px;
+        height: 425px; 
+        display: flex;
+        align-self: center;
+        margin: auto;
+    }
+
+
+    .encabezado{
+        width: 100%;
+        height: auto; 
+        font-size: 50px ;
+        text-align: center; 
+    }
+
+    .encabezado a {
+        text-decoration: none; 
+    }
+
+    .agendaS {   
+        background-color: transparent; 
+        width: 100%; 
+        height:460px;
+        margin: 0;
+    }
+
+    .agendaS .card {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        background-color: transparent;
+        text-decoration: none;
+        border: none;
+    }
+
+    .agendaS .card a  {
+        color: black;
+        text-decoration: none;
+        margin: auto; 
+        width: 380px;
+        height: 380px;
+    }
+
+    .agendaS .card a img {
+        width: 320px;
+        height: 320px;
+        margin: 0;
+    }     
+
+    .agenda {    
+        background-color: transparent;     
+        margin: 0px; 
+    }
+
+    .agenda a {
+        background-color: transparent; 
+        margin: 0px;
+        text-decoration: none; 
+        border: none; 
+        color: black;
+    }
+
+    .setJardin {        
+        border: none; 
+        margin: 0px; 
+    }
+
+    .setJardin a {
+        color: black;
+        margin: 0px;
+        text-decoration: none; 
+        border: none;
+    }
+
+    .almohadones {
+        margin: 0px;
+        color: black;
+        border: none;
+    }
+
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
+        border: none; 
+        margin: 0;
+        color: black;
+    }
+
+    .cartuchera a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;        
+    }
+
+    .remChicos {
+        border: none; 
+        margin: 0px;
+    }
+
+    .remChicos a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;
+    }
+
+    
+    .remEmbarazadas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .remEmbarazadas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .mochilas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .mochilas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .container_card {
+        background-color: transparent;
+        width: 100%;
+        height: auto; 
+        margin-bottom: 30px;
+        margin-top: 30px;
+        display: flex;
+        flex-flow: row wrap; 
+        justify-content: center;             
+    }
+
+    .section {
+        width: 100%;
+        height:auto; 
+        margin: auto;    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;       
+    }
+
+    .section .card {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        height: auto;
+        width: 170px;
+        margin-top: 25px;  
+        background-color: transparent;  
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px; 
+    }
+
+    .section .card:hover {
+        transform: translateY(-25px);
+        box-shadow: 2px 3px 3px 6px gray ;
+        transition: 1.5s;
+    }
+
+    .section .card a {
+        width: 170px;
+        height:200px;
+        margin: auto;
+        text-decoration: none; 
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+     }
+
+    .card a img {
+        width:100%;
+        height:100%;  
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    .section .card  .parrafo {
+        text-align: center;
+        text-decoration: none;
+        color: black;  
+        height: auto;  
+        font-size: 18px;
+    }
+
+    .container_card .verMas {
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+        text-align: center;        
+      }
+
+    .container_card .verMas  a {
+        text-decoration: none;
+        color: black;
+        margin: 0px;
+        font-size: 22px;
+    }
+
+    
+    .redes_soc {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width: 90px;
+        height: 90px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 50%;
+    }
+     
+    .contacto svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contacto p {
+        font-size: 25px
+    }
+
+    footer div p {
+        font-size: 35px;
+    }
+
+    footer .infoLinks {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 8px;
+
+    }
+
+    .infoLinks a {
+        color: white;
+        text-decoration: none;
+        font-size: 11px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
+    }
+
+    .copyright {
+        background-color: black;
+        color: white;
+        height: auto;
+        text-align: center;
+        font-size: 25px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* --- ir arriba --- */
+
+    .ir-arriba {
+        position: fixed;
+        bottom: 25px;
+        left: 3px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        transition: all 300ms ease;
+        border-radius: 50%;
+        z-index: 30;
+    }
+
+    .ir-arriba span {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin: auto;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width:1440px ) and (min-width:1025px) {
+
+    body {
+        background:white;
+    }
+
+    .fondoImg {
+        background:radial-gradient(pink , violet, white  );
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+    .fondoImg .aWsp {
+        margin-left: 1080px;
+        margin-right: 60px;
+        margin-bottom: 80px;   
+
+    }
+
+    .wsp {
+        object-fit: cover;
+        box-sizing: border-box;
+        width: 120px;
+        height: 120px;
+        background-color: transparent;  
+    }
+
+    header{ 
+        width: 100%;  
+        height: auto;     
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;         
+        justify-content: center; 
+        align-content: center; 
+        margin: auto; 
+    }
+
+    header .portFon  {
+        width: 100%;
+        height: auto;
+        margin: auto; 
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+
+    header .portFon .port {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portFon .loFondo { 
+        margin: auto;       
+        position: absolute;
+        left: 30px;
+        top: 0;
+    }
+
+    .portFon .loFondo img {
+        width:140px;
+        height: auto;
+    }
+
+    .div_img{ 
+        margin: 0;
+        display: none;
+        flex-wrap: wrap;
+        height: 250px;
+        background: black;
+        width: 100%;
+        text-decoration: none; 
+    }
+
+    .div_img a {
+        width: 100%;
+        height:250px ;
+        text-decoration: none;
+        margin: 0;
+        background-color: black;
+    }
+
+    .div_img a img {
+        height: 250px;
+        width: 100%; 
+     
+    }
+
+    .boton_hbs {
+        display: block;
+    }
+
+    .boton_hbs  .menu {
+        display: none;
+    }
+
+    .menu span {
+        display: none;
+    }
+
+
+    .list {
+        display: none;
+    }
+
+    .list button {
+        display: none;
+    }
+
+    .header_img {
+        width: 100%;
+        height: 580px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        margin: auto;  
+    }
+
+    .header_img img {
+        width: 800px;
+        height:500px; 
+        display: flex;
+        align-self: center;
+        margin: auto; 
+    
+    }
+
+
+    .encabezado{
+        width: 100%;
+        height: auto; 
+        font-size: 50px ;
+        text-align: center;
+        padding: 5px;  
+    }
+
+    .encabezado a {
+        text-decoration: none; 
+    }
+
+    .agendaS {   
+        background-color: transparent; 
+        width: 100%; 
+        height: 600px; 
+        margin-top: 10px; 
+        margin: 0;
+    }
+
+    .agendaS  .card  {
+        width: 480px;
+        height: 480px; 
+        margin: auto;
+        background-color: transparent;
+        text-decoration: none;
+        border: none;
+    }
+
+    .agendaS .card  a  {
+        color: black;
+        text-decoration: none;
+        margin: auto;
+        width: 440px;
+        height: 440px;     
+
+    }
+
+    .agendaS .card a img {
+        width: 360px;
+        height: 360px;
+        margin: 0;
+    }     
+
+    .agenda {    
+        background-color: transparent;     
+        margin: 0px; 
+
+    }
+
+    .agenda a {
+        background-color: transparent; 
+        margin: 0px;
+        text-decoration: none; 
+        border: none; 
+        color: black;
+    }
+
+    .setJardin {        
+        border: none; 
+        margin: 0px; 
+    }
+
+    .setJardin a {
+        color: black;
+        margin: 0px;
+        text-decoration: none; 
+        border: none;
+    }
+
+    .almohadones {
+        margin: 0px;
+        color: black;
+        border: none;
+    }
+
+    .almohadones a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .cartuchera {        
+        border: none; 
+        margin: 0PX;
+    }
+
+    .cartuchera a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;        
+    }
+
+    .remChicos {
+        border: none; 
+        margin: 0px;
+    }
+
+    .remChicos a {
+        margin: 0px;
+        text-decoration: none; 
+        color: black;
+    }
+
+    
+    .remEmbarazadas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .remEmbarazadas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .mochilas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .mochilas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .tazas {
+        border: none;
+        margin: 0px; 
+    }
+
+    .tazas a {
+        color: black;
+        margin: 0px;
+        text-decoration: none;
+        border: none;
+    }
+
+
+    .container_card {
+        background-color: transparent;
+        width: 100%;
+        height: auto; 
+        margin-bottom: 40px;
+        margin-top: 30px;
+        display: flex;
+        flex-flow: row wrap; 
+        justify-content: center;      
+    }
+
+    .section {
+        width: 100%;
+        height:auto; 
+        margin: auto;    
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center;
+        padding: 2px; 
+     
+    }
+
+    .section .card {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        height: auto;
+        width: 170px;
+        margin-top: 28px;  
+        margin-bottom: 28px;  
+        background-color: transparent;  
+        margin-left: 8px;
+        margin-right: 8px; 
+    }
+
+    .section .card:hover {
+        transform: translateY(-25px);
+        box-shadow: 2px 3px 3px 6px rgb(140, 47, 168) ;
+        transition: 1.5s;
+    }
+
+    .section .card a {
+        width: 170px;
+        height: 200px;
+        margin: auto;
+        text-decoration: none;  
+
+     }
+
+    .card a img {
+        width:100%;
+        height:100%; 
+        margin: auto; 
+
+
+    }
+
+    .card a .parrafo {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        height: 20px;
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+
+    .container_card .verMas {
+        text-align: center;
+        margin: 0px;
+        margin-top: 20px;
+        text-align: center;        
+      }
+
+    .container_card .verMas  a {
+        text-decoration: none;
+        color: black;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    
+    .redes_soc {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+    .footer h1{
+        width: 100%;
+    }
+
+    .redes_soc img {
+        width:90px;
+        height: 90px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 50%;
+    } 
+
+    
+    .contacto svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contacto p {
+        font-size: 25px
+    }
+
+    footer div p {
+        font-size: 30px;
+    }
+
+    footer .infoLinks {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 8px;
+
+    }
+
+    .infoLinks a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        display: flex;
+        flex-direction:row; 
+        flex-wrap: wrap; 
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+        
+    }
+
+    .infoLinks a:hover {
+        color:lightblue;
+    }
+
+    .copyright {
+        background-color: black;
+        color: white;
+        height: auto;
+        text-align: center;
+        font-size: 35px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+
+
+
+
+
+
+
+}
